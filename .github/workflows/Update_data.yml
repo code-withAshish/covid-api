@@ -1,0 +1,13 @@
+name: Update data at 08:02 AM
+on:
+  schedule:
+    - cron: "32 2 * * 0-6"
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hourly cron job
+        run: |
+          curl --request POST \
+          --url 'https:///api/covid' \
+          --header 'Authorization: Bearer ${{ secrets.ACTION_KEY }}'

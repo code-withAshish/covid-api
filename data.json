@@ -1,0 +1,254 @@
+[
+  {
+    "state": "Maharashtra",
+    "total_cases": 8136552,
+    "active_cases": 165,
+    "discharged_cases": 7987972,
+    "total_deaths": 148415
+  },
+  {
+    "state": "Kerala",
+    "total_cases": 6828146,
+    "active_cases": 1358,
+    "discharged_cases": 6755237,
+    "total_deaths": 71551
+  },
+  {
+    "state": "Karnataka",
+    "total_cases": 4071854,
+    "active_cases": 1248,
+    "discharged_cases": 4030299,
+    "total_deaths": 40307
+  },
+  {
+    "state": "Tamil Nadu",
+    "total_cases": 3594377,
+    "active_cases": 55,
+    "discharged_cases": 3556273,
+    "total_deaths": 38049
+  },
+  {
+    "state": "Andhra Pradesh",
+    "total_cases": 2339067,
+    "active_cases": 4,
+    "discharged_cases": 2324330,
+    "total_deaths": 14733
+  },
+  {
+    "state": "Uttar Pradesh",
+    "total_cases": 2128101,
+    "active_cases": 50,
+    "discharged_cases": 2104418,
+    "total_deaths": 23633
+  },
+  {
+    "state": "West Bengal",
+    "total_cases": 2118597,
+    "active_cases": 53,
+    "discharged_cases": 2097012,
+    "total_deaths": 21532
+  },
+  {
+    "state": "Delhi",
+    "total_cases": 2007175,
+    "active_cases": 39,
+    "discharged_cases": 1980615,
+    "total_deaths": 26521
+  },
+  {
+    "state": "Odisha",
+    "total_cases": 1336546,
+    "active_cases": 89,
+    "discharged_cases": 1327252,
+    "total_deaths": 9205
+  },
+  {
+    "state": "Rajasthan",
+    "total_cases": 1315448,
+    "active_cases": 83,
+    "discharged_cases": 1305712,
+    "total_deaths": 9653
+  },
+  {
+    "state": "Gujarat",
+    "total_cases": 1277551,
+    "active_cases": 39,
+    "discharged_cases": 1266469,
+    "total_deaths": 11043
+  },
+  {
+    "state": "Chhattisgarh",
+    "total_cases": 1177749,
+    "active_cases": 8,
+    "discharged_cases": 1163595,
+    "total_deaths": 14146
+  },
+  {
+    "state": "Haryana",
+    "total_cases": 1056597,
+    "active_cases": 42,
+    "discharged_cases": 1045841,
+    "total_deaths": 10714
+  },
+  {
+    "state": "Madhya Pradesh",
+    "total_cases": 1054918,
+    "active_cases": 4,
+    "discharged_cases": 1044138,
+    "total_deaths": 10776
+  },
+  {
+    "state": "Bihar",
+    "total_cases": 851379,
+    "active_cases": 15,
+    "discharged_cases": 839062,
+    "total_deaths": 12302
+  },
+  {
+    "state": "Telengana",
+    "total_cases": 841312,
+    "active_cases": 65,
+    "discharged_cases": 837136,
+    "total_deaths": 4111
+  },
+  {
+    "state": "Punjab",
+    "total_cases": 784199,
+    "active_cases": 44,
+    "discharged_cases": 764866,
+    "total_deaths": 19289
+  },
+  {
+    "state": "Assam",
+    "total_cases": 746100,
+    "active_cases": 0,
+    "discharged_cases": 738065,
+    "total_deaths": 8035
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "total_cases": 479410,
+    "active_cases": 18,
+    "discharged_cases": 474607,
+    "total_deaths": 4785
+  },
+  {
+    "state": "Uttarakhand",
+    "total_cases": 449377,
+    "active_cases": 27,
+    "discharged_cases": 441599,
+    "total_deaths": 7751
+  },
+  {
+    "state": "Jharkhand",
+    "total_cases": 442570,
+    "active_cases": 3,
+    "discharged_cases": 437236,
+    "total_deaths": 5331
+  },
+  {
+    "state": "Himachal Pradesh",
+    "total_cases": 312643,
+    "active_cases": 28,
+    "discharged_cases": 308402,
+    "total_deaths": 4213
+  },
+  {
+    "state": "Goa",
+    "total_cases": 259070,
+    "active_cases": 19,
+    "discharged_cases": 255038,
+    "total_deaths": 4013
+  },
+  {
+    "state": "Mizoram",
+    "total_cases": 238964,
+    "active_cases": 0,
+    "discharged_cases": 238238,
+    "total_deaths": 726
+  },
+  {
+    "state": "Puducherry",
+    "total_cases": 175505,
+    "active_cases": 2,
+    "discharged_cases": 173528,
+    "total_deaths": 1975
+  },
+  {
+    "state": "Manipur",
+    "total_cases": 139922,
+    "active_cases": 0,
+    "discharged_cases": 137773,
+    "total_deaths": 2149
+  },
+  {
+    "state": "Tripura",
+    "total_cases": 108034,
+    "active_cases": 0,
+    "discharged_cases": 107094,
+    "total_deaths": 940
+  },
+  {
+    "state": "Chandigarh",
+    "total_cases": 99346,
+    "active_cases": 4,
+    "discharged_cases": 98161,
+    "total_deaths": 1181
+  },
+  {
+    "state": "Meghalaya",
+    "total_cases": 96783,
+    "active_cases": 1,
+    "discharged_cases": 95158,
+    "total_deaths": 1624
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "total_cases": 66890,
+    "active_cases": 0,
+    "discharged_cases": 66594,
+    "total_deaths": 296
+  },
+  {
+    "state": "Sikkim",
+    "total_cases": 44319,
+    "active_cases": 1,
+    "discharged_cases": 43819,
+    "total_deaths": 499
+  },
+  {
+    "state": "Nagaland",
+    "total_cases": 35986,
+    "active_cases": 0,
+    "discharged_cases": 35204,
+    "total_deaths": 782
+  },
+  {
+    "state": "Ladakh",
+    "total_cases": 29412,
+    "active_cases": 3,
+    "discharged_cases": 29178,
+    "total_deaths": 231
+  },
+  {
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "total_cases": 11591,
+    "active_cases": 0,
+    "discharged_cases": 11587,
+    "total_deaths": 4
+  },
+  {
+    "state": "Lakshadweep",
+    "total_cases": 11415,
+    "active_cases": 0,
+    "discharged_cases": 11363,
+    "total_deaths": 52
+  },
+  {
+    "state": "Andaman and Nicobar",
+    "total_cases": 10742,
+    "active_cases": 1,
+    "discharged_cases": 10612,
+    "total_deaths": 129
+  }
+]
