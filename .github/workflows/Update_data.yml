@@ -9,5 +9,5 @@ jobs:
       - name: Hourly cron job
         run: |
           curl --request POST \
-          --url 'https:///api/covid' \
+          --url 'https://covid19-api-india.vercel.app/api/covid' \
           --header 'Authorization: Bearer ${{ secrets.ACTION_KEY }}'
