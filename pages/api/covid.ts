@@ -23,7 +23,7 @@ type APIdata = {
  */
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
 
-    if (req.method === "POST") {
+    if (req.method === "POST" && req.headers.authorization === process.env.AUTH_TOKEN) {
 
         const response = await got("https://www.mygov.in/covid-19")
         const html = response.body
