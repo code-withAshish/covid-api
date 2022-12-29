@@ -1,7 +1,7 @@
 name: Update data at 08:02 AM
 on:
   schedule:
-    - cron: "35 13 * * 0-6"
+    - cron: "42 13 * * 0-6"
 jobs:
   cron:
     runs-on: ubuntu-latest
