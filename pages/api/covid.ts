@@ -1,4 +1,5 @@
 import * as cheerio from 'cheerio';
+import { writeFileSync } from 'fs';
 import { writeFile } from 'fs/promises';
 import type { NextApiRequest, NextApiResponse } from 'next'
 import puppeteer from 'puppeteer';
@@ -47,7 +48,7 @@ export default async function handler(
 
     var data: APIdata[] = [];
     //const head = $("#ind_mp_tbl > thead").text();
-    for (var i = 1; i <= 36; i++) {
+    for (var i = 2; i <= 36; i++) {
 
       const total_cases_data_difference = $(`#ind_mp_tbl > tbody > tr:nth-child(${i}) > td:nth-child(2) > p > span`).text().length;
       const active_cases_difference = $(`#ind_mp_tbl > tbody > tr:nth-child(${i}) > td:nth-child(3) > p > span`).text().length;
@@ -75,7 +76,10 @@ export default async function handler(
 
     res.json("Data Updated")
   } else {
-
-    res.status(200).json(covData)
+    if (req.method === "GET") {
+      res.status(200).json(covData);
+    } else {
+      res.status(500).json("Error")
+    }
   }
 }
