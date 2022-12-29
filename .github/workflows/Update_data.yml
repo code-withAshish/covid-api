@@ -1,0 +1,13 @@
+name: Update data at 08:02 AM
+on:
+  schedule:
+    - cron: "42 13 * * 0-6"
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hourly cron job
+        run: |
+          curl --request POST \
+          --url 'https://covid19-api-india.vercel.app/api/covid' \
+          --header 'Authorization: Bearer ${{ secrets.ACTION_KEY }}'
