@@ -1,7 +1,7 @@
 import { JSDOM } from "jsdom"
 import { NextApiRequest, NextApiResponse } from "next";
 import got from "got";
-import { prisma } from "../../prisma/db";
+import { prisma } from "../../../prisma/db";
 
 
 export type APIdata = {
