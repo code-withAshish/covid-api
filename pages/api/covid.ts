@@ -56,7 +56,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             }
             console.log(maxage);
             try {
-                const resData = await prisma.data.findMany({ orderBy: { date: "asc" } })
+                const resData = await prisma.data.findMany({ orderBy: { date: "desc" } })
                 res.setHeader("Cache-Control", `public,s-maxage=${maxage},must-revalidate`)
                 res.status(200).json(resData[0].json)
             } catch (e) {
