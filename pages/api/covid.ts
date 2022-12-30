@@ -4,7 +4,7 @@ import got from "got";
 import { prisma } from "../../prisma/db";
 
 
-type APIdata = {
+export type APIdata = {
     state: string,
     confirmed: number,
     active: number,
